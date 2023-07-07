@@ -1,0 +1,55 @@
+.image-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.image-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.myImage {
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+    border: 3px solid #e16a06;
+    box-shadow: 0px 0px 20px 5px #e16a06;
+    filter: brightness(0.5);
+    z-index: 1;
+}
+
+.myImage:hover {
+    transform: scale(1.8);
+    filter: brightness(1);
+    transform-origin: top center;
+}
+
+.image-description {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.image-item-2 .myImage {
+    margin-left: 200px;
+}
+
+.image-item-3 .myImage {
+    margin-left: 350px;
+}
+#zoomed-image-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    display: none;
+}
+
+#zoomed-image {
+    max-width: 100%;
+    max-height: 100%;
+}

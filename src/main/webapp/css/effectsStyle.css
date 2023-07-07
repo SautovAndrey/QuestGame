@@ -1,0 +1,26 @@
+@keyframes flash {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 35%;
+    z-index: 1000;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.4);
+    animation: flash 3.3s ease-out infinite;
+    border-radius: 0 0 50% 0;
+    filter: blur(10px);
+}

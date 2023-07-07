@@ -1,0 +1,65 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>WelcomeController</servlet-name>
+        <servlet-class>org.example.controller.WelcomeController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WelcomeController</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VillageController</servlet-name>
+        <servlet-class>org.example.controller.VillageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VillageController</servlet-name>
+        <url-pattern>/village</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TavernController</servlet-name>
+        <servlet-class>org.example.controller.TavernController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TavernController</servlet-name>
+        <url-pattern>/tavern</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ElderController</servlet-name>
+        <servlet-class>org.example.controller.ElderController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ElderController</servlet-name>
+        <url-pattern>/elder</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ForestController</servlet-name>
+        <servlet-class>org.example.controller.ForestController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ForestController</servlet-name>
+        <url-pattern>/forest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EndController</servlet-name>
+        <servlet-class>org.example.controller.EndController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EndController</servlet-name>
+        <url-pattern>/end</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>welcome.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>

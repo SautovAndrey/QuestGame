@@ -1,0 +1,36 @@
+.story-content {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 45%;
+    height: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(105, 105, 105, 0.4);
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #444;
+}
+
+.story-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.story-content::-webkit-scrollbar-track {
+    background: #444;
+}
+
+.story-content::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.story-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

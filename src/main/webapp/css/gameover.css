@@ -1,0 +1,26 @@
+@keyframes neonBlink {
+    0% {
+        text-shadow: 0 0 5px red;
+        transform: scale(1);
+    }
+    50% {
+        text-shadow: 0 0 20px red;
+        transform: scale(3);
+    }
+    100% {
+        text-shadow: 0 0 5px red;
+        transform: scale(1);
+    }
+}
+
+#gameOverContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    animation: neonBlink 1s infinite;
+}
