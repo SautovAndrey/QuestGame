@@ -17,6 +17,7 @@
 <body>
 <div id="fogContainer"></div>
 <h1>Welcome to the Elder's House</h1>
+<button id="showFullStory">Показать весь текст</button>
 <form action="elder" method="post">
   <input type="submit" name="action" value="Ask about Village">
   <input type="submit" name="action" value="Ask about Forest">

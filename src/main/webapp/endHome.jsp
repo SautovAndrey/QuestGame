@@ -26,7 +26,7 @@
 <div id="gameOverContainer">
     <h2>Game Over</h2>
 </div>
-
+<button id="showFullStory">Показать весь текст</button>
 <!-- Add this form -->
 <form action="${pageContext.request.contextPath}/welcome.jsp" method="post">
     <input type="submit" value="Start Over">

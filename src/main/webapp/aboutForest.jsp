@@ -26,7 +26,7 @@
 <div id="particles-js"></div>
 
 <h1>Talk about Darkness</h1>
-
+<button id="showFullStory">Показать весь текст</button>
 <form>
   <input type="submit" name="action" value="Leave in Tavern">
 </form>

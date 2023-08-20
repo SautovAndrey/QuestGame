@@ -134,3 +134,22 @@ input[type="submit"]:hover, .audio-controls button:hover {
     background-color: #ec5608;
     box-shadow: 0 0 200px #ec5608;
 }
+
+button#showFullStory {
+    padding: 10px 20px;
+    background-color: #444;
+    border: none;
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    margin: 20px 0; /* Добавлен отступ для разделения кнопки и содержимого story-content */
+    font-family: 'Chronicles_font', sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+button#showFullStory:hover {
+    background-color: #ec5608;
+    box-shadow: 0 0 200px #ec5608;
+}

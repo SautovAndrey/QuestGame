@@ -37,6 +37,7 @@
 <form action="${pageContext.request.contextPath}/welcome.jsp" method="post">
   <input type="submit" value="Start Over">
 </form>
+<button id="showFullStory">Показать весь текст</button>
 <img id="warrior-image" src="${pageContext.request.contextPath}/images/warrior4.png" alt="elder image">
 
 <div id="story-content" class="story-content"></div>

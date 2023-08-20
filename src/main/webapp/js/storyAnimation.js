@@ -1,8 +1,18 @@
+var intervalId; // Для остановки интервала
+var showFullText = false; // Флаг для проверки нажатия кнопки
+
 function typeStory(text, divId, callback) {
     console.log('typeStory called with', text, divId);
     var storyDiv = document.getElementById(divId);
     var i = 0;
-    var intervalId = setInterval(function () {
+
+    intervalId = setInterval(function () {
+        if (showFullText) { // Если кнопка была нажата
+            clearInterval(intervalId);
+            storyDiv.innerText = window.story.join(' ');
+            return;
+        }
+
         var newCharNode = document.createTextNode(text[i]);
         storyDiv.appendChild(newCharNode);
         storyDiv.scrollTop = storyDiv.scrollHeight;
@@ -39,3 +49,14 @@ window.addEventListener("DOMContentLoaded", function() {
 });
 console.log(window.story);
 
+document.getElementById('showFullStory').addEventListener('click', function() {
+    showFullText = true; // Устанавливаем флаг
+    clearInterval(intervalId); // Останавливаем интервал
+
+    // Отображаем весь текст сразу
+    var storyDiv = document.getElementById('story-content');
+    storyDiv.innerText = window.story.join(' ');
+
+    // Опционально: скрываем кнопку, так как текст уже отображен полностью
+    this.style.display = 'none';
+});

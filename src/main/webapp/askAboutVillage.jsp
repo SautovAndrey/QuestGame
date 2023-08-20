@@ -28,7 +28,7 @@
 
 
 <h1>Ask about Village</h1>
-
+<button id="showFullStory">Показать весь текст</button>
 <form>
     <input type="submit" name="action" value="Leave in Elder">
 </form>

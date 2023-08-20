@@ -21,6 +21,7 @@
 <div id="fogContainer"></div>
 
 <h1>Drink and Fight</h1>
+<button id="showFullStory">Показать весь текст</button>
 <form>
   <input type="submit" name="action" value="Leave in Tavern">
 </form>

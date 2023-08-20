@@ -26,6 +26,7 @@
 </form>
 
 <div id="story-content" class="story-content"></div>
+<button id="showFullStory">Показать весь текст</button>
 <script>
   window.story = <%= request.getAttribute("storyArray") %>;
   console.log(window.story);
@@ -42,6 +43,7 @@
     AudioController.init('${pageContext.request.contextPath}/musics/Dryante - A Story You Wont Believe (Gwent).mp3');
   }
 </script>
+
 
 <div class="audio-controls">
   <button id="playButton">Play Music</button>

@@ -36,6 +36,7 @@
 <body>
 <div id="fogContainer"></div>
 <h1>Talking To An Elder</h1>
+<button id="showFullStory">Показать весь текст</button>
 <form id="elder-form" action="elder" method="post">
     <input type="radio" id="notAfraid" name="action" value="Tell Elder you're not afraid">
     <label for="notAfraid">Скажи старейшине, что ты не боишься</label><br>
