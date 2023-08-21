@@ -11,7 +11,10 @@
 ![CSS Badge](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-![Game Screenshot](https://github.com/SautovAndrey/QuestGame/raw/main/path_to_screenshot.jpg) 
+![Game Screenshot](https://github.com/SautovAndrey/QuestGame/blob/26d59f88a0d83b01310c10e684433d1dfe65a3b3/QGScrin1.png) 
+![Game Screenshot](https://github.com/SautovAndrey/QuestGame/blob/26d59f88a0d83b01310c10e684433d1dfe65a3b3/QGScrin2.png) 
+![Game Screenshot](https://github.com/SautovAndrey/QuestGame/blob/26d59f88a0d83b01310c10e684433d1dfe65a3b3/QGScrin3.png) 
+![Game Screenshot](https://github.com/SautovAndrey/QuestGame/blob/26d59f88a0d83b01310c10e684433d1dfe65a3b3/QGScrin4.png) 
 
 ## 📌 Описание
 
