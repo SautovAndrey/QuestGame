@@ -143,10 +143,12 @@ button#showFullStory {
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 1em;
-    margin: 20px 0; /* Добавлен отступ для разделения кнопки и содержимого story-content */
     font-family: 'Chronicles_font', sans-serif;
-    position: relative;
-    z-index: 2;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
 }
 
 button#showFullStory:hover {

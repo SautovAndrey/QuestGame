@@ -15,10 +15,11 @@
     </style>
 </head>
 <body>
+<button id="showFullStory">Показать весь текст</button>
 <div id="fogContainer"></div>
 
 <h1>Welcome to the village</h1>
-<button id="showFullStory">Показать весь текст</button>
+
 <form action="village" method="post">
     <input type="submit" name="action" value="Visit Tavern">
     <input type="submit" name="action" value="Talk to Elder">
