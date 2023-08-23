@@ -11,7 +11,7 @@ import java.io.IOException;
 public class WelcomeController extends GameServlet {
     private static final String WELCOME_JSP_PATH = "/WEB-INF/jsp/welcome.jsp";
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         setPlayerAttributes(request);
         String name = request.getParameter("name");
         String ipAddress = request.getRemoteAddr();
