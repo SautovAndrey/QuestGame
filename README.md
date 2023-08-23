@@ -10,6 +10,7 @@
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CSS Badge](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Java CI](https://github.com/SautovAndrey/QuestGame/actions/workflows/java-ci.yml/badge.svg)
 
 ![Game Screenshot](https://github.com/SautovAndrey/QuestGame/blob/26d59f88a0d83b01310c10e684433d1dfe65a3b3/QGScrin1.png) 
 ![Game Screenshot](https://github.com/SautovAndrey/QuestGame/blob/26d59f88a0d83b01310c10e684433d1dfe65a3b3/QGScrin2.png) 
